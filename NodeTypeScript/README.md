@@ -1,5 +1,8 @@
 # NodeTypeScript
 
+http://www.typescriptlang.org/
+http://en.wikipedia.org/wiki/Typescript
+
 ## Objective, About
 
 hello-TypeScript-server.ts is similar to hello-server.js except for 1st line: `declare function require(name:string);`

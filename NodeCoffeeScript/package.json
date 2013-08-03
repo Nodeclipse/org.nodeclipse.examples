@@ -1,10 +1,9 @@
 {
-  "name": "NodeTypeScript",
+  "name": "NodeCoffeeScript",
   "version": "0.1.0",
-  "description": "Node with TypeScript",
-  "main": "hello-TypeScript-server.js",
+  "description": "Node with CoffeeScript",
+  "main": "hello-world-server.js",
   "scripts": {
-	"compile":"tsc hello-TypeScript-server.ts",
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
   "repository": "",
