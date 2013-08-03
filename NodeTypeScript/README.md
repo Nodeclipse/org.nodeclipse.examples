@@ -27,7 +27,8 @@ Created with [Nodeclipse v0.4](https://github.com/Nodeclipse/nodeclipse-1)
 
 [Using Express() with TypeScript](http://stackoverflow.com/questions/12710063/using-express-with-typescript) 
 
-[TypeScript, Node.js, Vim, and Linux -- Oh My!](http://stackful-dev.com/typescript-nodejs-vim-and-linux-oh-my) 
+[TypeScript, Node.js, Vim, and Linux -- Oh My!](http://stackful-dev.com/typescript-nodejs-vim-and-linux-oh-my)  
+mentions `--module Node` option
 
 [Does TypeScript provide an explicit Public API for NodeJS Module Access?](http://stackoverflow.com/questions/12717309/does-typescript-provide-an-explicit-public-api-for-nodejs-module-access)
 
