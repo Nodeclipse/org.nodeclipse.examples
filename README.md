@@ -14,7 +14,9 @@ or select <kbd>import existing project</kbd> when using EGit.
 
 ## TODO
 
+- [ ] add module
 - [ ] Bugzilla - Eclipse crushes when manually associating .gitignore, .gitmodules with Text Editor in Preferences -> General -> Editors -> File Associations
 - [ ] Nodeclipse - associate .gitignore, .gitmodules with Text Editor
-
+- [ ] ? How to git clone if repo is too big and connection is unstable or server hungs up.
+ 
 
