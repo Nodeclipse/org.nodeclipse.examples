@@ -15,6 +15,11 @@ Using [nodemon](https://github.com/remy/nodemon) or [forever](https://github.com
 
 http://stackoverflow.com/questions/4582376/examples-of-coffeescript-in-nodejs
 
+article "My Node.js Express + CoffeeScript setup"
+http://sparklinlabs.com/2013/06/my-node-js-express-coffeescript-setup/
+ 
+
+
 ## Developing
 
 
