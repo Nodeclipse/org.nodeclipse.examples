@@ -1,3 +1,0 @@
-[submodule "typescript/express-typescript"]
-	path = typescript/express-typescript
-	url = https://github.com/hdeshev/express-typescript.git
