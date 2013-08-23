@@ -40,8 +40,8 @@ but may be useful later.
 ## TODO
 
 - [v] add module
-- [ ] Bugzilla - Eclipse crushes when manually associating .gitignore, .gitmodules with Text Editor in Preferences -> General -> Editors -> File Associations
-- [ ] Nodeclipse - associate .gitignore, .gitmodules with Text Editor
+- [v] Bugzilla - Eclipse crushes when manually associating .gitignore, .gitmodules with Text Editor in Preferences -> General -> Editors -> File Associations
+- [v] Nodeclipse - associate .gitignore, .gitmodules with Text Editor
 - [ ] ? How to git clone if repo is too big and connection is unstable or server hungs up.
 
 
