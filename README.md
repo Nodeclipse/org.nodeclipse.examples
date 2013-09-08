@@ -13,7 +13,12 @@ Here below we get it as git submodule ([some theory and intro](http://git-scm.co
 but the best help was `git help submodule`).
 
     git submodule init
+    
+That will register each submodule name and url found in .gitmodules into .git/config
+    
     git submodule update
+    
+That will clone missing submodules and checkout the commit specified in the index of the containing repository.
 
 ### More on git submodules
 
