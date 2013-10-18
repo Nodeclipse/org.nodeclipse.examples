@@ -1,0 +1,6 @@
+var page = require('webpage').create();
+phantom.cookiesEnabled = true;
+page.open('http://m.bing.com', function () {
+    console.log(JSON.stringify(phantom.cookies, null, 2));
+    phantom.exit();
+});

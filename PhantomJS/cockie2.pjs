@@ -1,0 +1,19 @@
+
+// from http://stackoverflow.com/questions/9504765/does-phantomjs-support-cookies
+
+var page = require('webpage').create();
+page.open('http://example.com', function (status) {
+    page.evaluate(function() {
+        document.cookie; // => "test=test-value;"
+    });
+    page.cookies; // => [{
+                  //   domain: "example.com",
+                  //   expires: "Wed, 08 Jan 2014 00:00:00 GMT"
+                  //   httponly: false,
+                  //   name: "test",
+                  //   path: "/",
+                  //   secure: false,
+                  //   value: "test-value"
+                  // }]
+    phantom.cookies; // contains ALL cookies in Phantom's jar
+});
