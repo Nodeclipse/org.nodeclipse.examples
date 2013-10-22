@@ -1,0 +1,21 @@
+{
+  "name": "MongoDBNodeProject",
+  "version": "0.1.0",
+  "description": "MongoDBNodeProject",
+  "main": "hello-world-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mongodb": "~1.3.19"
+  }
+}
