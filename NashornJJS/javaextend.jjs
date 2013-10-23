@@ -1,0 +1,16 @@
+var ArrayList = Java.type("java.util.ArrayList");
+var ArrayListExtender = Java.extend(ArrayList);
+var printSizeInvokedArrayList = new ArrayListExtender() {
+    size: function() { print("size invoked!"); }
+}
+var printAddInvokedArrayList = new ArrayListExtender() {
+    add: function(x, y) {
+        if(typeof(y) === "undefined") {
+            print("add(e) invoked!");
+        } else {
+            print("add(i, e) invoked!");
+        }
+    }
+};
+printSizeInvokedArrayList.size();
+printAddInvokedArrayList.add(33, 33);
