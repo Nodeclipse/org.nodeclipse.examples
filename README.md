@@ -47,8 +47,8 @@ but may be useful later.
 - [v] add module
 - [v] Bugzilla - Eclipse crushes when manually associating .gitignore, .gitmodules with Text Editor in Preferences -> General -> Editors -> File Associations
 - [v] Nodeclipse - associate .gitignore, .gitmodules with Text Editor
-- [ ] ? How to git clone if repo is too big and connection is unstable or server hungs up.
-
-
+- [v] ? How to git clone if repo is too big and connection is unstable or server hungs up.  
+    ->
+[`git clone --depth 1` (shallow clone)](http://stackoverflow.com/questions/6941889/is-git-clone-depth-1-shallow-clone-more-useful-than-it-makes-out)
 
 
